@@ -17,7 +17,7 @@ int main() {
     int ausschnittStartH = 20; // set 0 for orig image
     int ausschnittWidth = 60;  // set = width for orig image
     int ausschnittHeight = 60; // set = height for orig image
-    int scaleW = 6;  // set 1 for orig image
+    int scaleW = 6;  // set 1 for orig image. Sample only every scaleW point
     int scaleH = 6;  // set 1 for orig image
 
     if (!img) {
